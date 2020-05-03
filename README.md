@@ -7,7 +7,12 @@
   ```
   go build main.go
   ```
-
+## Usage
+```
+Usage of ./main:
+  -parallel int
+        Limit the number of cuncurrent http requests (default: 10)
+```
 ## Run
 ```
 ./main google.com yandex.com
