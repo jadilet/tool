@@ -27,7 +27,7 @@ func GetMd5URL(url string) (string, error) {
 }
 
 func main() {
-	parallel := flag.Int("parallel", 10, "Limit the number of parallel requests")
+	parallel := flag.Int("parallel", 10, "Limit the number of cuncurrent http requests")
 	flag.Parse()
 
 	// Limit the concurrent goroutines
